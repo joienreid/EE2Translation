@@ -1,0 +1,5 @@
+Ext.RegisterListener("ModuleLoading", function()
+    Ext.StatAddCustomDescription("Target_SourceVampirism", "SkillProperties", "Накл. Вытягивание.")
+    Ext.StatAddCustomDescription("Projectile_Multishot", "SkillProperties", "Урон зависит от вашего оружия.")
+    Ext.StatAddCustomDescription("Projectile_DimensionalBolt", "SkillProperties", "Накл. Dazzled III: на 2 х.<br>Базовый урон зависит от вашего уровня.")
+end)

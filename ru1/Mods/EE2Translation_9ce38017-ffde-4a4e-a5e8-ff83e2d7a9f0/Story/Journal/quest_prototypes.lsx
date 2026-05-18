@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<save>
+    <header version="2" />
+    <version major="3" minor="6" revision="6" build="0" />
+    <region id="Quests">
+        <node id="root">
+            <children>
+                <node id="Quest">
+                    <attribute id="CategoryID" value="EE_Tutorial" type="22" />
+                    <attribute id="MainQuest" value="0" type="19" />
+                    <attribute id="QuestBroadcastLevel" value="2" type="1" />
+                    <attribute id="QuestID" value="EE_Ascension" type="22" />
+                    <attribute id="QuestTitle" value="Вознесение" handle="ls::TranslatedStringRepository::s_HandleUnknown" type="28" />
+                    <attribute id="Shareable" value="1" type="19" />
+                    <attribute id="SortingPriority" value="0" type="4" />
+                    <children>
+                        <node id="QuestState">
+                            <attribute id="Achievement" value="" type="22" />
+                            <attribute id="Act" value="0" type="4" />
+                            <attribute id="Description" value='Вознесение - это новая система прокачки, которая добавляет значительное разнообразие в сборки персонажей и варианты взаимодействия между членами вашего отряда. Получить доступ к меню Вознесения можно при использовании способности «Медитация». Каждый уровень персонажи получают 1 "очко Вознесения" (также вы получите 5 доп. очков за некоторые "сюжетные моменты": получение способности «Благословение»; обнаружение убежища искателей (святилише Амадии); получение способности «Спиритизм»; «Вытягивание Истока»; и второго очка Истока).&lt;br&gt;&lt;br&gt;Вознесение состоит из пяти "аспектов": Force, Life, Entropy, Form и Inertia. При двойном нажатии на один из них, вам откроются 12 находяшихся в аспекте созвездий, которые можно условно разделить на 1, 2 и 3 уровни. Созвездия состоят из "ячеек", на которые вы и тратите "очки Вознесения". Для получения начального доступа к созвездиям вам необходимо иметь как минимум 1 вложенное в "аспект" очко, которое по-началу вы можете найти в основном меню Вознесения (The Core). &lt;br&gt;&lt;br&gt;Соседствующие друг с другом "аспекты" разделяют похожие бонусы и требования для созвездий.&lt;br&gt;&lt;br&gt;Сбросить и перераспределить "очки Вознесения" можно в любой момент (кроме боя), никаких штрафов вы не получите.' handle="ls::TranslatedStringRepository::s_HandleUnknown" type="28" />
+                            <attribute id="DevComment" value="" type="22" />
+                            <attribute id="Gain" value="0" type="4" />
+                            <attribute id="Mystery" value="" type="22" />
+                            <attribute id="MysteryAction" value="0" type="1" />
+                            <attribute id="MysteryDescription" value="" handle="ls::TranslatedStringRepository::s_HandleUnknown" type="28" />
+                            <attribute id="Objective" value="" type="22" />
+                            <attribute id="QuestRewardCount" value="0" type="4" />
+                            <attribute id="QuestRewardLevel" value="0" type="4" />
+                            <attribute id="ReputationGain" value="0" type="4" />
+                            <attribute id="StatTriggerGUID" value="" type="22" />
+                            <attribute id="Status" value="Default" type="22" />
+                        </node>
+                    </children>
+                </node>
+                <node id="Quest">
+                    <attribute id="CategoryID" value="EE_Tutorial" type="22" />
+                    <attribute id="MainQuest" value="0" type="19" />
+                    <attribute id="QuestBroadcastLevel" value="2" type="1" />
+                    <attribute id="QuestID" value="EE_Statuses" type="22" />
+                    <attribute id="QuestTitle" value="Уровневые эффекты и стаки Battered/Harried" handle="ls::TranslatedStringRepository::s_HandleUnknown" type="28" />
+                    <attribute id="Shareable" value="1" type="19" />
+                    <attribute id="SortingPriority" value="0" type="4" />
+                    <children>
+                        <node id="QuestState">
+                            <attribute id="Achievement" value="" type="22" />
+                            <attribute id="Act" value="0" type="4" />
+                            <attribute id="Description" value='"Уровневые эффекты" в Epic Encounters - это замена "эффектам тяжелого контроля", таким как "Нокдаун" или "Заморозка". Подобные эффекты не могут заставить персонажа полностью пропустить его ход, вместо этого они накладывают штрафы и снижают сопротивления.&lt;br&gt;&lt;br&gt;"Уровневые эффекты" делятся на III уровня. I - накладывается всегда , обладает незначительными штрафами и снижением сопротивлений. II - накладывается, если у цели нет соответствующего типа брони, обладает средними значениями штрафов и снижением сопротивлений. III уровень является самым сильным вариантом, который помимо накладывания значительных штрафов и снижения сопротивлений, обладает вариантом не тяжелого, но все таки контроля: "Немота", "Порча", "Истощение" и так далее. Эффекты III уровня накладываются сквозь броню, но для этого они требуют стаки Battered (физ.урон) или Harried (маг.урон).&lt;br&gt;&lt;br&gt;По умолчанию, цель получает 1 стак Battered или Harried, когда по ней наносится, соответственно, физический или магический урон в размере 7.5% от максимального здоровья. Любой недостаточный или избыточный урон идет в расчет получения уже следующего стака. Существует множество вариантов "облегчения" или "усложнения" наложения этих стаков и также некоторые способности могут накладывать стаки напрямую.&lt;br&gt;&lt;br&gt;Снижение сопротивлений от уровневых эффектов в Epic Encounters является очень важным средством для уничтожения ваших (весьма усиленных) противников. "Магические эффекты" (которые требуют стаки Harried) снижают физические сопротивления, а "Физические эффекты" (которые требуют стаки Battered) снижают магические сопротивления, что является значительным усилением и улучшением взаимодействия в группах со смешанным уроном.&lt;br&gt;"Физические сопротивления" отвечают за физический и колющий урон, "Магические сопротивления" - за урон огнем, водой, воздухом, землей и ядом.&lt;br&gt;&lt;br&gt;Ниже представлены все доступные в игре "уровневые эффекты"&lt;br&gt;&lt;br&gt;&lt;font size=&quot;24&quot;&gt;&lt;font color=&apos;c80030&apos;&gt;Ataxia&lt;/font&gt; —&lt;/font&gt;&lt;br&gt;Уровень I:&lt;font size=&quot;16&quot;&gt;&lt;br&gt;» -10% Движение.&lt;br&gt;» -15% Уклонение.&lt;br&gt;» -5 Стихийные сопротивления.&lt;/font&gt;&lt;br&gt;Уровень II&lt;font size=&quot;16&quot; face=&quot;Averia Serif&quot;&gt; (Блокируется физической броней):&lt;/font&gt;&lt;font size=&quot;16&quot;&gt;&lt;br&gt;» -20% Движение.&lt;br&gt;» -30% Уклонение.&lt;br&gt;» -15 Стихийные сопротивления.&lt;/font&gt;&lt;br&gt;Уровень III&lt;font size=&quot;16&quot; face=&quot;Averia Serif&quot;&gt; (Требует 7 стаков Battered):&lt;/font&gt;&lt;font size=&quot;16&quot;&gt;&lt;br&gt;» -20% Движение.&lt;br&gt;» -30% Уклонение.&lt;br&gt;» Истощение (Обезоружен).&lt;br&gt;» -50 Стихийные сопротивления.&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;font size=&quot;24&quot;&gt;&lt;font color=&apos;7f25d4&apos;&gt;Subjugated&lt;/font&gt; —&lt;/font&gt;&lt;br&gt;Уровень I:&lt;font size=&quot;16&quot;&gt;&lt;br&gt;» Уменьшенная вероятность атаковать наложившего этот эффект персонажа; если все-таки атакует, тогда он получает урон водой.&lt;br&gt;» -5 Стихийные сопротивления.&lt;/font&gt;&lt;br&gt;Уровень II&lt;font size=&quot;16&quot; face=&quot;Averia Serif&quot;&gt; (Блокируется физической броней):&lt;/font&gt;&lt;font size=&quot;16&quot;&gt;&lt;br&gt;» Уменьшенная вероятность атаковать наложившего этот эффект персонажа; если все-таки атакует, тогда он получает урон водой.&lt;br&gt;» -1 к восстановлению ОД.&lt;br&gt;» -15 Стихийные сопротивления.&lt;/font&gt;&lt;br&gt;Уровень III&lt;font size=&quot;16&quot; face=&quot;Averia Serif&quot;&gt; (Требует 7 стаков Battered):&lt;/font&gt;&lt;font size=&quot;16&quot;&gt;&lt;br&gt;» Максимально уменьшенная вероятность атаковать наложившего этот эффект персонажа; если все-таки атакует, тогда он получает урон водой.&lt;br&gt;» -3 к восстановлению ОД.&lt;br&gt;» -50 Стихийные сопротивления.&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;font size=&quot;24&quot;&gt;&lt;font color=&apos;b823cb&apos;&gt;Vulnerable&lt;/font&gt; —&lt;/font&gt;&lt;br&gt;Уровень I:&lt;font size=&quot;16&quot;&gt;&lt;br&gt;» 15% проще наложить Battered или Harried.&lt;br&gt;» -5 Стихийные сопротивления.&lt;/font&gt;&lt;br&gt;Уровень II&lt;font size=&quot;16&quot; face=&quot;Averia Serif&quot;&gt; (Блокируется физической броней):&lt;/font&gt;&lt;font size=&quot;16&quot;&gt;&lt;br&gt;» 30% проще наложить Battered или Harried.&lt;br&gt;» -15 Стихийные сопротивления.&lt;/font&gt;&lt;br&gt;Уровень III&lt;font size=&quot;16&quot; face=&quot;Averia Serif&quot;&gt; (Требует 7 стаков Battered):&lt;/font&gt;&lt;font size=&quot;16&quot;&gt;&lt;br&gt;» 35% проще наложить Battered или Harried.&lt;br&gt;» Порча (получает урон от лечения).&lt;br&gt;» -50 Стихийные сопротивления.&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;font size=&quot;24&quot;&gt;&lt;font color=&apos;639594&apos;&gt;Weakened&lt;/font&gt; —&lt;/font&gt;&lt;br&gt;Уровень I:&lt;font size=&quot;16&quot;&gt;&lt;br&gt;» -15% урона.&lt;br&gt;» -1% урона за уровень цели.&lt;br&gt;» -5% урона от мощи.&lt;br&gt;» -5 Стихийные сопротивления.&lt;/font&gt;&lt;br&gt;Уровень II&lt;font size=&quot;16&quot; face=&quot;Averia Serif&quot;&gt; (Блокируется физической броней):&lt;/font&gt;&lt;font size=&quot;16&quot;&gt;&lt;br&gt;» -15% урона.&lt;br&gt;» -2.5% урона за уровень цели.&lt;br&gt;» -15% урона от мощи.&lt;br&gt;» -15 Стихийные сопротивления.&lt;/font&gt;&lt;br&gt;Уровень III&lt;font size=&quot;16&quot; face=&quot;Averia Serif&quot;&gt; (Требует 7 стаков Battered):&lt;/font&gt;&lt;font size=&quot;16&quot;&gt;&lt;br&gt;» -20% урона.&lt;br&gt;» -2.5% урона за уровень цели.&lt;br&gt;» -50% урона от мощи.&lt;br&gt;» -50 Стихийные сопротивления.&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;font size=&quot;24&quot;&gt;&lt;font color=&apos;797980&apos;&gt;Dazzled&lt;/font&gt; —&lt;/font&gt;&lt;br&gt;Уровень I:&lt;font size=&quot;16&quot;&gt;&lt;br&gt;» -30% Точность.&lt;br&gt;» -5 Физические сопротивления.&lt;/font&gt;&lt;br&gt;Уровень II&lt;font size=&quot;16&quot; face=&quot;Averia Serif&quot;&gt; (Блокируется магической броней):&lt;/font&gt;&lt;font size=&quot;16&quot;&gt;&lt;br&gt;» -45% Точность.&lt;br&gt;» -15% Уклонение.&lt;br&gt;» Не может обнаружить персонажей в скрытности.&lt;br&gt;» -15 Физические сопротивления.&lt;/font&gt;&lt;br&gt;Уровень III&lt;font size=&quot;16&quot; face=&quot;Averia Serif&quot;&gt; (Требует 7 стаков Harried):&lt;/font&gt;&lt;font size=&quot;16&quot;&gt;&lt;br&gt;» -50% Точность.&lt;br&gt;» -15% Уклонение.&lt;br&gt;» Слепота (дальность видимости 3м).&lt;br&gt;» Не может обнаружить персонажей в скрытности.&lt;br&gt;» -50 Физические сопротивления.&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;font size=&quot;24&quot;&gt;&lt;font color=&apos;c80030&apos;&gt;Slowed&lt;/font&gt; —&lt;/font&gt;&lt;br&gt;Уровень I:&lt;font size=&quot;16&quot;&gt;&lt;br&gt;» -20% Движение.&lt;br&gt;» -5 Физические сопротивления.&lt;/font&gt;&lt;br&gt;Уровень II&lt;font size=&quot;16&quot; face=&quot;Averia Serif&quot;&gt; (Блокируется магической броней):&lt;/font&gt;&lt;font size=&quot;16&quot;&gt;&lt;br&gt;» -40% Движение.&lt;br&gt;» -15 Физические сопротивления.&lt;/font&gt;&lt;br&gt;Уровень III&lt;font size=&quot;16&quot; face=&quot;Averia Serif&quot;&gt; (Требует 7 стаков Harried):&lt;/font&gt;&lt;font size=&quot;16&quot;&gt;&lt;br&gt;» -70% Движение.&lt;br&gt;» -1 к восстановлению ОД и стоимость способностей увеличена на 1 ОД &lt;br&gt;» -50 Физические сопротивления.&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;font size=&quot;24&quot;&gt;&lt;font color=&apos;797980&apos;&gt;Squelched&lt;/font&gt; —&lt;/font&gt;&lt;br&gt;Уровень I:&lt;font size=&quot;16&quot;&gt;&lt;br&gt;» Трата дополнительных 2 ОД при применении способностей перемещения. Если ОД не хватает, тогда персонаж получает 2 стака Battered и Harried за каждое недостающее ОД.&lt;br&gt;» -5 Физические сопротивления.&lt;/font&gt;&lt;br&gt;Уровень II&lt;font size=&quot;16&quot; face=&quot;Averia Serif&quot;&gt; (Блокируется магической броней):&lt;/font&gt;&lt;font size=&quot;16&quot;&gt;&lt;br&gt;» Трата дополнительных 3 ОД при применении способностей перемещения. Если ОД не хватает, тогда персонаж получает 2 стака Battered и Harried за каждое недостающее ОД.&lt;br&gt;» -10 Инициатива.&lt;br&gt;» -15 Физические сопротивления.&lt;/font&gt;&lt;br&gt;Уровень III&lt;font size=&quot;16&quot; face=&quot;Averia Serif&quot;&gt; (Требует 7 стаков Harried):&lt;/font&gt;&lt;font size=&quot;16&quot;&gt;&lt;br&gt;» Трата дополнительных 3 ОД при применении способностей перемещения. Если ОД не хватает, тогда персонаж получает 2 стака Battered и Harried за каждое недостающее ОД.&lt;br&gt;» -10 Инициатива.&lt;br&gt;» Немота (не может использовать заклинания). После окончания эффекта Squelched III, персонаж получает иммунитет к конкретно этому эффекту на 2 хода (I и II уровень все еще накладывается).&lt;br&gt;» -50 Физические сопротивления.&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;font size=&quot;24&quot;&gt;&lt;font color=&apos;b823cb&apos;&gt;Terrified&lt;/font&gt; —&lt;/font&gt;&lt;br&gt;Уровень I:&lt;font size=&quot;16&quot;&gt;&lt;br&gt;» -45% Точность при атаках по возможности.&lt;br&gt;» -5 Физические сопротивления.&lt;/font&gt;&lt;br&gt;Уровень II&lt;font size=&quot;16&quot; face=&quot;Averia Serif&quot;&gt; (Блокируется магической броней):&lt;/font&gt;&lt;font size=&quot;16&quot;&gt;&lt;br&gt;» Не может применять атаки по возможности.&lt;br&gt;» Тратит 1 ОД каждый ход, "убегая" от противников.&lt;br&gt;» Не может обнаружить персонажей в скрытности.&lt;br&gt;» -15 Физические сопротивления.&lt;/font&gt;&lt;br&gt;Уровень III&lt;font size=&quot;16&quot; face=&quot;Averia Serif&quot;&gt; (Требует 7 стаков Harried):&lt;/font&gt;&lt;font size=&quot;16&quot;&gt;&lt;br&gt;» Не может применять атаки по возможности.&lt;br&gt;» Тратит 2 ОД каждый ход, "убегая" от противников.&lt;br&gt;» Не может обнаружить персонажей в скрытности.&lt;br&gt;» -50 Физические сопротивления.&lt;/font&gt;  ' handle="ls::TranslatedStringRepository::s_HandleUnknown" type="28" />
+                            <attribute id="DevComment" value="Status list should be imported from online sheets" type="22" />
+                            <attribute id="Gain" value="0" type="4" />
+                            <attribute id="Mystery" value="" type="22" />
+                            <attribute id="MysteryAction" value="0" type="1" />
+                            <attribute id="MysteryDescription" value="" handle="ls::TranslatedStringRepository::s_HandleUnknown" type="28" />
+                            <attribute id="Objective" value="" type="22" />
+                            <attribute id="QuestRewardCount" value="0" type="4" />
+                            <attribute id="QuestRewardLevel" value="0" type="4" />
+                            <attribute id="ReputationGain" value="0" type="4" />
+                            <attribute id="StatTriggerGUID" value="" type="22" />
+                            <attribute id="Status" value="Default" type="22" />
+                        </node>
+                    </children>
+                </node>
+                <node id="Quest">
+                    <attribute id="CategoryID" value="EE_Tutorial" type="22" />
+                    <attribute id="MainQuest" value="0" type="19" />
+                    <attribute id="QuestBroadcastLevel" value="2" type="1" />
+                    <attribute id="QuestID" value="EE_Greatforge" type="22" />
+                    <attribute id="QuestTitle" value="Кузня - новая система ремесла" handle="ls::TranslatedStringRepository::s_HandleUnknown" type="28" />
+                    <attribute id="Shareable" value="1" type="19" />
+                    <attribute id="SortingPriority" value="0" type="4" />
+                    <children>
+                        <node id="QuestState">
+                            <attribute id="Achievement" value="" type="22" />
+                            <attribute id="Act" value="0" type="4" />
+                            <attribute id="Description" value='Кузня - это новая механика ремесла в Epic Encounters, доступная при использовании способности &quot;Медитация&quot;. Чтобы попасть в окно Кузни ищите значок наковальни в меню Вознесения.&lt;br&gt;&lt;br&gt;Чтобы ее использовать, для начала вам необходимо выбрать предмет: нажмите на центральную ячейку (вас перенесет в старое окно ремесла), выберите предмет и нажмите "объединить". Также можно просто перенести предмет из инвентаря/окна персонажа в центральную ячейку с помощью зажатой ЛКМ. После чего вам откроются все новые функции ремесла, для большей части которых необходимы "осколки", которые добываются при разборе предметов (функция Dismantle/Разобрать: для удобства она вынесена в ПКМ меню инвентаря).&lt;br&gt;&lt;br&gt;Уникальная функция &quot;Focalize&quot; может быть применена на найденных вами &quot;Артефактах&quot;, которая может превратить этот уникальный предмет в руну, которую впоследствии можно использовать в соотвествующей ячейке снаряжения.&lt;br&gt;Повышайте уровень экипировки с помощью &quot;Empower&quot;, позже, при достижении определенных уровней (6,9,12 и т.д в зависимости от параметра и размера улучшения) вам откроются улучшения &quot;Masterwork&quot;, и вы сможете усилить один из параметров на предмете (например, сделать +4 к Военному делу, вместо +2). С помощью функции &quot;Cull&quot; вы можете оставить на предмете один параметр, который позже можно добавить на другой с помощью функции &quot;Combine&quot;.&lt;br&gt;Параметры на предметах разделяются на обычные, они считаются в общий лимит (например, у Божественных предметов их может быть максимум 6), и implicit - это врожденные, случайно генерируемые параметры вне лимита (например, implicit уклонение на поножах). Для проверки параметров зажмите клавишу Shift при наведении на предмет, у implicit бонусов будет соответствующая приписка.' handle="ls::TranslatedStringRepository::s_HandleUnknown" type="28" />
+                            <attribute id="DevComment" value="" type="22" />
+                            <attribute id="Mystery" value="" type="22" />
+                            <attribute id="Gain" value="0" type="4" />
+                            <attribute id="MysteryAction" value="0" type="1" />
+                            <attribute id="MysteryDescription" value="" handle="ls::TranslatedStringRepository::s_HandleUnknown" type="28" />
+                            <attribute id="Objective" value="" type="22" />
+                            <attribute id="QuestRewardCount" value="0" type="4" />
+                            <attribute id="QuestRewardLevel" value="0" type="4" />
+                            <attribute id="ReputationGain" value="0" type="4" />
+                            <attribute id="StatTriggerGUID" value="" type="22" />
+                            <attribute id="Status" value="Default" type="22" />
+                        </node>
+                    </children>
+                </node>
+                <node id="Quest">
+                    <attribute id="CategoryID" value="EE_Tutorial" type="22" />
+                    <attribute id="MainQuest" value="0" type="19" />
+                    <attribute id="QuestBroadcastLevel" value="2" type="1" />
+                    <attribute id="QuestID" value="EE_SourceInfusion" type="22" />
+                    <attribute id="QuestTitle" value="Генерация и насыщение Истоком" handle="ls::TranslatedStringRepository::s_HandleUnknown" type="28" />
+                    <attribute id="Shareable" value="1" type="19" />
+                    <attribute id="SortingPriority" value="0" type="4" />
+                    <children>
+                        <node id="QuestState">
+                            <attribute id="Achievement" value="" type="22" />
+                            <attribute id="Act" value="0" type="4" />
+                            <attribute id="Description" value='Насыщение Истоком в Epic Encounters - это переработанная система взаимодействия с очками Истока. Почти каждая способность была изменена и теперь имеет вплоть до 3 уровней усилений (насыщений). Эти "насыщения" дают дополнительные и, порой, весьма значительные и уникальные бонусы к эффекту примененной способности.&lt;br&gt;&lt;br&gt;Для усиления заклинаний используется способность "Насыщение Истоком" (получается после снятия ошейника), которая доступна только в бою и не имеет перезарядки - нажимайте на нее необходимое количество раз, перед применением способности, которую вы хотите "насытить" Истоком (насыщения ограничены вашими текущими очками Истока и обнуляются при полном цикле нажатий). При насыщениях 2 и 3 уровня вы также получаете все предыдущие бонусы насыщений (кроме бонусов где написано: "Вместо предыдущих бонусов насыщения Истоком").&lt;br&gt;&lt;br&gt;"Генерация Истока" в Epic Encounters - это измененная система получения Истока. Вне боя теперь вы не можете использовать ваш Исток, он доступен только в бою. Очки Истока обнуляются при входе в битву, и вы получаете эффект "Генерация Истока", которая, начиная со второго хода дает вам по 1 очку Истока на протяжении 3 ходов (по умолчанию).&lt;br&gt;&lt;br&gt;"Генерация Истока" становится на паузу при полном количестве очков Истока. Длительность и вариация генерации может быть значительно усилена бонусами Вознесения, предметов, способностей и Артефактов.' handle="ls::TranslatedStringRepository::s_HandleUnknown" type="28" />
+                            <attribute id="DevComment" value="" type="22" />
+                            <attribute id="Gain" value="0" type="4" />
+                            <attribute id="Mystery" value="" type="22" />
+                            <attribute id="MysteryAction" value="0" type="1" />
+                            <attribute id="MysteryDescription" value="" handle="ls::TranslatedStringRepository::s_HandleUnknown" type="28" />
+                            <attribute id="Objective" value="" type="22" />
+                            <attribute id="QuestRewardCount" value="0" type="4" />
+                            <attribute id="QuestRewardLevel" value="0" type="4" />
+                            <attribute id="ReputationGain" value="0" type="4" />
+                            <attribute id="StatTriggerGUID" value="" type="22" />
+                            <attribute id="Status" value="Default" type="22" />
+                        </node>
+                    </children>
+                </node>
+                <node id="Quest">
+                    <attribute id="CategoryID" value="EE_Tutorial" type="22" />
+                    <attribute id="MainQuest" value="0" type="19" />
+                    <attribute id="QuestBroadcastLevel" value="2" type="1" />
+                    <attribute id="QuestID" value="EE_Initiative" type="22" />
+                    <attribute id="QuestTitle" value="Инициатива и бонус Готовность" handle="ls::TranslatedStringRepository::s_HandleUnknown" type="28" />
+                    <attribute id="Shareable" value="1" type="19" />
+                    <attribute id="SortingPriority" value="0" type="4" />
+                    <children>
+                        <node id="QuestState">
+                            <attribute id="Achievement" value="" type="22" />
+                            <attribute id="Act" value="0" type="4" />
+                            <attribute id="Description" value='&quot;Готовность&quot; в Epic Encounters - это поощрение за высокую инициативу в бою.&lt;br&gt;&lt;br&gt;В течение боя, если у персонажа (у любого в бою) больше инициативы, чем у предыдущего в очереди вражеского (у существ учитывается инициатива призывателя), то он получает бонус "Готовность", который дает 1 ОД каждый ход, или 2 ОД, если лидерство в инициативе будет сохраняться и на следующих ходах (ОД добавляются сверх лимита).&lt;br&gt;&lt;br&gt;Бонус "Готовность" недоступен для первоходящего персонажа, это можно изменить с помощью таланта "Ранняя пташка".' handle="ls::TranslatedStringRepository::s_HandleUnknown" type="28" />
+                            <attribute id="DevComment" value="" type="22" />
+                            <attribute id="Gain" value="0" type="4" />
+                            <attribute id="Mystery" value="" type="22" />
+                            <attribute id="MysteryAction" value="0" type="1" />
+                            <attribute id="MysteryDescription" value="" handle="ls::TranslatedStringRepository::s_HandleUnknown" type="28" />
+                            <attribute id="Objective" value="" type="22" />
+                            <attribute id="QuestRewardCount" value="0" type="4" />
+                            <attribute id="QuestRewardLevel" value="0" type="4" />
+                            <attribute id="ReputationGain" value="0" type="4" />
+                            <attribute id="StatTriggerGUID" value="" type="22" />
+                            <attribute id="Status" value="Default" type="22" />
+                        </node>
+                    </children>
+                </node>
+                <node id="Quest">
+                    <attribute id="CategoryID" value="EE_Tutorial" type="22" />
+                    <attribute id="MainQuest" value="0" type="19" />
+                    <attribute id="QuestBroadcastLevel" value="2" type="1" />
+                    <attribute id="QuestID" value="EE_Runes" type="22" />
+                    <attribute id="QuestTitle" value="Руны" handle="ls::TranslatedStringRepository::s_HandleUnknown" type="28" />
+                    <attribute id="Shareable" value="1" type="19" />
+                    <attribute id="SortingPriority" value="0" type="4" />
+                    <children>
+                        <node id="QuestState">
+                            <attribute id="Achievement" value="" type="22" />
+                            <attribute id="Act" value="0" type="4" />
+                            <attribute id="Description" value="Epic Encounters добавляет 19 новых видов рун и также меняет некоторые особенности их использования. Оправы для рун удалены. Смастерить малую руну можно при объединении ее материала с пыльцой пикси. Дальнейшее объединение осталось все таким же, пыльца пикси и две руны меньшего размера.&lt;br&gt;- В один элемент снаряжения нельзя вставить больше одной руны одного вида и также два оружия не могут иметь одинаковых рун.&lt;br&gt;- Извлекая руны старым способом вы будете их уничтожать. Для безопасного извлечения теперь используется функция Greatforge, а именно Extract Runes/Извлечь руны (для удобства вынесено в контекстное ПКМ меню)." handle="ls::TranslatedStringRepository::s_HandleUnknown" type="28" />
+                            <attribute id="DevComment" value="" type="22" />
+                            <attribute id="Gain" value="0" type="4" />
+                            <attribute id="Mystery" value="" type="22" />
+                            <attribute id="MysteryAction" value="0" type="1" />
+                            <attribute id="MysteryDescription" value="" handle="ls::TranslatedStringRepository::s_HandleUnknown" type="28" />
+                            <attribute id="Objective" value="" type="22" />
+                            <attribute id="QuestRewardCount" value="0" type="4" />
+                            <attribute id="QuestRewardLevel" value="0" type="4" />
+                            <attribute id="ReputationGain" value="0" type="4" />
+                            <attribute id="StatTriggerGUID" value="" type="22" />
+                            <attribute id="Status" value="Default" type="22" />
+                        </node>
+                    </children>
+                </node>
+                <node id="Quest">
+                    <attribute id="CategoryID" value="EE_Tutorial" type="22" />
+                    <attribute id="MainQuest" value="0" type="19" />
+                    <attribute id="QuestBroadcastLevel" value="2" type="1" />
+                    <attribute id="QuestID" value="EE_Reactions" type="22" />
+                    <attribute id="QuestTitle" value="Реакции" handle="ls::TranslatedStringRepository::s_HandleUnknown" type="28" />
+                    <attribute id="Shareable" value="1" type="19" />
+                    <attribute id="SortingPriority" value="0" type="4" />
+                    <children>
+                        <node id="QuestState">
+                            <attribute id="Achievement" value="" type="22" />
+                            <attribute id="Act" value="0" type="4" />
+                            <attribute id="Description" value="Реакции это новая система, которая значительно улучшает и расширяет взаимодействие между членами вашего отряда.&lt;br&gt;&lt;br&gt;Реакции и бонусы к ним доступны в окне Вознесения, множестве Артефактов и некоторых способностях. Персонаж может применить реакцию только вне своего хода. По умолчанию на них тратится по 1 ОД (от остаточных после хода), но есть возможность получить значительное количество бесплатных зарядов (самый доступный способ - талант Оппортунист).&lt;br&gt;&lt;br&gt;Реакции применяются при выполнении условий их активации, наличии свободных ОД или бесплатных зарядов. Бонусы к реакциям, которые вы будете прокачивать можно условно разделить на 'Активаторы' (при каких условиях активируются) и 'Мутаторы' (эффекты при активации)." handle="ls::TranslatedStringRepository::s_HandleUnknown" type="28" />
+                            <attribute id="DevComment" value="" type="22" />
+                            <attribute id="Gain" value="0" type="4" />
+                            <attribute id="Mystery" value="" type="22" />
+                            <attribute id="MysteryAction" value="0" type="1" />
+                            <attribute id="MysteryDescription" value="" handle="ls::TranslatedStringRepository::s_HandleUnknown" type="28" />
+                            <attribute id="Objective" value="" type="22" />
+                            <attribute id="QuestRewardCount" value="0" type="4" />
+                            <attribute id="QuestRewardLevel" value="0" type="4" />
+                            <attribute id="ReputationGain" value="0" type="4" />
+                            <attribute id="StatTriggerGUID" value="" type="22" />
+                            <attribute id="Status" value="Default" type="22" />
+                        </node>
+                    </children>
+                </node>
+                <node id="Quest">
+                    <attribute id="CategoryID" value="EE_Tutorial" type="22" />
+                    <attribute id="MainQuest" value="0" type="19" />
+                    <attribute id="QuestBroadcastLevel" value="2" type="1" />
+                    <attribute id="QuestID" value="EE_Death" type="22" />
+                    <attribute id="QuestTitle" value="Слабость после воскрешения" handle="ls::TranslatedStringRepository::s_HandleUnknown" type="28" />
+                    <attribute id="Shareable" value="1" type="19" />
+                    <attribute id="SortingPriority" value="0" type="4" />
+                    <children>
+                        <node id="QuestState">
+                            <attribute id="Achievement" value="" type="22" />
+                            <attribute id="Act" value="0" type="4" />
+                            <attribute id="Description" value='Если персонаж в бою был воскрешен, но при этом он уже ходил в этом раунде, то он получает эффект "Слабость после воскрешения", который делает его недееспособным на 1 ход.&lt;br&gt;&lt;br&gt;&lt;font size=&quot;6&quot;&gt;Давайте, поабузьте воскрешение.&lt;/font&gt;' handle="ls::TranslatedStringRepository::s_HandleUnknown" type="28" />
+                            <attribute id="DevComment" value="" type="22" />
+                            <attribute id="Gain" value="0" type="4" />
+                            <attribute id="Mystery" value="" type="22" />
+                            <attribute id="MysteryAction" value="0" type="1" />
+                            <attribute id="MysteryDescription" value="" handle="ls::TranslatedStringRepository::s_HandleUnknown" type="28" />
+                            <attribute id="Objective" value="" type="22" />
+                            <attribute id="QuestRewardCount" value="0" type="4" />
+                            <attribute id="QuestRewardLevel" value="0" type="4" />
+                            <attribute id="ReputationGain" value="0" type="4" />
+                            <attribute id="StatTriggerGUID" value="" type="22" />
+                            <attribute id="Status" value="Default" type="22" />
+                        </node>
+                    </children>
+                </node>
+                <node id="Quest">
+                    <attribute id="CategoryID" value="EE_Tutorial" type="22" />
+                    <attribute id="MainQuest" value="0" type="19" />
+                    <attribute id="QuestBroadcastLevel" value="2" type="1" />
+                    <attribute id="QuestID" value="EE_Resistances" type="22" />
+                    <attribute id="QuestTitle" value="Характеристики персонажа и прочее" handle="ls::TranslatedStringRepository::s_HandleUnknown" type="28" />
+                    <attribute id="Shareable" value="1" type="19" />
+                    <attribute id="SortingPriority" value="0" type="4" />
+                    <children>
+                        <node id="QuestState">
+                            <attribute id="Achievement" value="" type="22" />
+                            <attribute id="Act" value="0" type="4" />
+                            <attribute id="Description" value="&quot;Восстановление недостающего здоровья/брони&quot;:&lt;br&gt;Восстанавливает процент в зависимости от недостающего значения, происходит в начале своего хода, узнать показатель этого параметра можно в последнем разделе окна персонажа.&lt;br&gt;&lt;br&gt;&quot;Сопротивления&quot;:&lt;br&gt;Сопротивления персонажей ограничены максимальным значением в 50% (по умолчанию)(можно повысить рунами и прочими бонусами). Также в игре теперь изменена формула начисления и уменьшения сопротивлений: с экспонентной на DR (diminishing returns/линейная). Теперь практически невозможно добиться полной неуязвимости к урону. Новую формулу расчета можете посмотреть в настройках мода.&lt;br&gt;&lt;br&gt;&quot;Утомляемость от уклонения&quot;:&lt;br&gt;Каждый раз, когда по персонажу промахиваются, его уклонение понижается на 13% (по умолчанию). Значение уклонения обновляется в начале хода этого персонажа.&lt;br&gt;&lt;br&gt;&quot;Восстановление ОД&quot;:&lt;br&gt;Восстановление можно условно разделить на 2 типа: прямое восстановление и восстановление от ловкости.&lt;br&gt;&quot;Прямое&quot; восстанавливает столько ОД, сколько и написано в бонусе (чаще всего попадается в насыщениях для способностей: &quot;Восстановите 2 ОД&quot; и т.д).&lt;br&gt;&quot;Восстановление от ловкости&quot; работает с ограничением &quot;до минимума стоимости в 2 ОД&quot;, т.е оно не может сделать способность дешевле этого значения, также не работает на способности стоимостью 2 ОД и ниже (попадается соответственно в ловкости и многих бонусах, отличить от прямого восстановления можно наличием пояснения снизу описаний: &quot;Восстановление работает до минимума стоимости в 2 ОД&quot;).&lt;br&gt;&lt;br&gt;&quot;Урон в момент применения&quot;:&lt;br&gt;Пассивный урон теперь повышается только от уровня, мощи и отдельных прямых бонусов (например, &quot;+10% урона&quot; в Вознесении, оружейные умения и т.д). Применяя способности определенной &quot;школы&quot; навыков (а иногда и просто определенной способности, например, «Внезапный удар») вы получаете бонус &quot;в момент применения&quot; ко ВСЕМУ вашему урону, который зависит от прокачки боевого умения этой способности (также может быть отдельное скалирование бонуса, тот же «Внезапный удар» усиливается от одноручного). Бонус к урону от боевого умения, в свою очередь, максимально зависим от вашего показателя мощи, также подобные бонусы &quot;в момент применения&quot; попадаются в насыщениях и в Вознесении.&lt;br&gt;Этот бонусный урон НЕ отображается в значениях описаний способностей (например, вы вкачали 10 Военного дела, но урон в описании «Калечащего удара» никак не изменится, потому, что вы получите бонус только в момент его применения, изменения можно увидеть, если навестись на описание при ударе)." handle="ls::TranslatedStringRepository::s_HandleUnknown" type="28" />
+                            <attribute id="DevComment" value="" type="22" />
+                            <attribute id="Gain" value="0" type="4" />
+                            <attribute id="Mystery" value="" type="22" />
+                            <attribute id="MysteryAction" value="0" type="1" />
+                            <attribute id="MysteryDescription" value="" handle="ls::TranslatedStringRepository::s_HandleUnknown" type="28" />
+                            <attribute id="Objective" value="" type="22" />
+                            <attribute id="QuestRewardCount" value="0" type="4" />
+                            <attribute id="QuestRewardLevel" value="0" type="4" />
+                            <attribute id="ReputationGain" value="0" type="4" />
+                            <attribute id="StatTriggerGUID" value="" type="22" />
+                            <attribute id="Status" value="Default" type="22" />
+                        </node>
+                    </children>
+                </node>
+                <node id="Quest">
+                    <attribute id="CategoryID" value="EE_Tutorial" type="22" />
+                    <attribute id="MainQuest" value="0" type="19" />
+                    <attribute id="QuestBroadcastLevel" value="2" type="1" />
+                    <attribute id="QuestID" value="EE_Dodging" type="22" />
+                    <attribute id="QuestTitle" value="Несколько заметок по игре" handle="ls::TranslatedStringRepository::s_HandleUnknown" type="28" />
+                    <attribute id="Shareable" value="1" type="19" />
+                    <attribute id="SortingPriority" value="0" type="4" />
+                    <children>
+                        <node id="QuestState">
+                            <attribute id="Achievement" value="" type="22" />
+                            <attribute id="Act" value="0" type="4" />
+                            <attribute id="Description" value="Сложность игры - &quot;Тактика&quot;, пресет EE2 - &quot;Impossible&quot;, группа из 4х персонажей - это вариант игры, вокруг которого автор аддона создавал весь баланс.&lt;br&gt;&quot;Доблесть&quot; не рекомендуется в большей степени по техническим причинам: автосохранения при смерти персонажей могут прервать вам, например, реакцию, что может оказать влияние на бой, ну и также это будет чертовски сложно (скорее душно)!&lt;br&gt;&quot;Волки-одиночки&quot; не рекомендованы в связи с тем, что они облегчат игровой процесс, и при этом также будут значительно ограничивать вас в выборе билдов (вся уникальная фишка билдостроения в EE2 заключается в комбинациях между сопартийцами).&lt;br&gt;&quot;Impossible&quot; - это предпоследний и сбалансированный пресет сложности, максимальный пресет &quot;DoNotPickThis&quot; - несбалансирован, это сложность ради сложности, которая еще больше ограничит возможные сборки ваших персонажей: любой враг может уничтожить вас за пару действий, и игроки, банально, не могут в таких условиях реализовать интересные комбинации, все сведется к сидению в кустах и простому набору сопротивлений.&lt;br&gt;&lt;br&gt;Не пропускайте бой с Даллис у ворот форта, иначе лишитесь уникального зелья, также не приходите в башню Бракка вплоть до завершения всех прочих боев на острове (9 уровень).&lt;br&gt;&lt;br&gt;&quot;Боссы&quot; - ваша основная цель и мотивация проводить бои. С персонажей с подобным статусом вы и получаете все основные ресурсы, &quot;Артефакты&quot; и экипировку. Теперь вы можете зачищать всю карту с чуть более чистой совестью, у многих ранее не враждебных нпс теперь будет этот статус, который, в свою очередь также является значительным усилением.&lt;br&gt;Добыча с &quot;Боссов&quot; различается по своей величине (Mini, Mega boss...), в настройках Epip вы можете поставить соответствующее отображение, и при наведении и нажатии Shift, вы будете видеть вариант выпадаемого лута, с возможностью получения &quot;Артефактов&quot;.&lt;br&gt;&lt;br&gt;Использование &quot;Провокации&quot; теперь является важнейшей частью любой битвы. Правильный &quot;аггро-менеджмент&quot; обеспечит основу выживания вашей группы.&lt;br&gt;&quot;Провокация&quot; переработана, и не является бесполезной механикой, как в ванилле. Наложение &quot;провокации&quot; расширено, и теперь подобный эффект есть у некоторых насыщенных Истоком способностей, в бонусах &quot;Вознесения&quot; и, наверное, самое основное, в таланте &quot;Боец-провокатор&quot;, который позволит вам провоцировать врагов большей частью способностей &quot;Военного дела&quot;. Теперь противники действительно бьют провоцирующего персонажа, но это не значит, что они ограничены в своих действиях. Если вы будете стоять рядом со своим &quot;танком&quot;, то будьте уверены, у врага найдется областное заклинание, которое нанесет урон всем вокруг (основное условие то исполняется, враг наносит урон провоцирующему персонажу).&lt;br&gt;Есть несколько исключений, при которых противник может игнорировать провоцирующего персонажа: это &quot;Оковы боли&quot;, &quot;Отражающий барьер&quot;(в очень редких случаях) и некоторые скриптовые моменты в боях. Также исключением может являться нахождение вне зоны досягаемости противника, где враг не может вас никак достать.&lt;br&gt;&lt;br&gt;Скрытность, использование реакций Celestial, Benevolence и прочих бонусов &quot;Вознесения&quot;, уровневых эффектов, прокачка телосложения, высокое уклонение, а также правильное позиционирование могут обеспечить выживание остальной части вашей группы.&lt;br&gt;В начале боя враги всегда поворачиваются на персонажа в скрытности, и, соответственно, выводят из нее, занимайте более укромные позиции (это еще особенность со времен ваниллы). Если вы остались в бою совсем один, то скрытность вас не спасет, враги рано или поздно все-таки найдут вас.&lt;br&gt;Уровневый эффект &quot;Subjugated&quot; является противоположностью провокации, враги будут вас игнорировать, если вы наложили этот эффект.&lt;br&gt;Использование скрытности облегчается ее значительным удешевлением (вплоть до 1 ОД или вообще бесплатных бонусов), а также применением уровневых эффектов &quot;Dazzled&quot; и &quot;Terrified&quot;, которые &quot;ослепляют&quot; противников, так, что они не смогут вас обнаружить. Если вы хотите надежно выживать до вашего хода, то ваш выбор талант &quot;Трикстер&quot;, который дает вам полноценную невидимость в начале боя, а после, автоматически вводит вас в скрытность в конце хода (но он не вполне удобен, если вы хотите наносить урон со скрытности, так как она всегда будет спадать в начале хода)." handle="ls::TranslatedStringRepository::s_HandleUnknown" type="28" />
+                            <attribute id="DevComment" value="" type="22" />
+                            <attribute id="Gain" value="0" type="4" />
+                            <attribute id="Mystery" value="" type="22" />
+                            <attribute id="MysteryAction" value="0" type="1" />
+                            <attribute id="MysteryDescription" value="" handle="ls::TranslatedStringRepository::s_HandleUnknown" type="28" />
+                            <attribute id="Objective" value="" type="22" />
+                            <attribute id="QuestRewardCount" value="0" type="4" />
+                            <attribute id="QuestRewardLevel" value="0" type="4" />
+                            <attribute id="ReputationGain" value="0" type="4" />
+                            <attribute id="StatTriggerGUID" value="" type="22" />
+                            <attribute id="Status" value="Default" type="22" />
+                        </node>
+                    </children>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

@@ -1,0 +1,8 @@
+{
+    "RequiredExtensionVersion": 47,
+    "ModTable": "EE2Translation",
+    "FeatureFlags": [
+        "OsirisExtensions",
+        "Lua"
+    ]
+}
