@@ -1,7 +1,7 @@
 # EE2Translation
 Перевод модификации Epic Encounters 2 _(с аддоном Derpy's EE2 Tweaks)_ для игры Divinity: Original Sin 2 - Definitive Edition.
 
-Программа, с помощью которой проводится распаковка/запаковка модов и конвертация файлов [LSlib ToolKit](https://github.com/Norbyte/lslib)
+Программа, с помощью которой проводится распаковка/запаковка модов и конвертация файлов **[LSlib ToolKit](https://github.com/Norbyte/lslib)**
 
 **[Запакованный _(.pak)_ файл](https://drive.google.com/file/d/1Z27QtyR7KXeE36rCdPFqvoUudgMrkAMX/view?usp=drive_link)**
 
