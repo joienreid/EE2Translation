@@ -1,4 +1,3 @@
-
 local StatsTab = Epip.GetFeature("Feature_CustomStats")
 
 StatsTab.STATS["LifeSteal"].Name = "Вампиризм"
@@ -16,15 +15,15 @@ StatsTab.STATS["RegenMagicArmorCalculated"].Description = "Восстанавл�
 StatsTab.STATS["PartyFunds_Splinters"].Name = "Осколков"
 StatsTab.STATS["PartyFunds_Splinters"].Description = "Количество осколков среди всех персонажей вашей группы."
 
-StatsTab.STATS["Embodiment_Force"].Description = "Воплощение Force в Вознесении"
+StatsTab.STATS["Embodiment_Force"].Description = "Воплощение Force в Вознесении."
 
-StatsTab.STATS["Embodiment_Entropy"].Description = "Воплощение Entropy в Вознесении"
+StatsTab.STATS["Embodiment_Entropy"].Description = "Воплощение Entropy в Вознесении."
 
-StatsTab.STATS["Embodiment_Form"].Description = "Воплощение Form в Вознесении"
+StatsTab.STATS["Embodiment_Form"].Description = "Воплощение Form в Вознесении."
 
-StatsTab.STATS["Embodiment_Inertia"].Description = "Воплощение Inertia в Вознесении"
+StatsTab.STATS["Embodiment_Inertia"].Description = "Воплощение Inertia в Вознесении."
 
-StatsTab.STATS["Embodiment_Life"].Description = "Воплощение Life в Вознесении"
+StatsTab.STATS["Embodiment_Life"].Description = "Воплощение Life в Вознесении."
 
 StatsTab.STATS["Keyword_Celestial_Healing"].Name = "Восстановление здоровья"
 StatsTab.STATS["Keyword_Celestial_Healing"].Description = "Процент здоровья, восстанавливаемый вашими Celestial реакциями."
@@ -315,7 +314,7 @@ StatsTab.STATS["Entropy_TheImp_Node_3.0"].Name = "При Wither"
 StatsTab.STATS["Entropy_TheImp_Node_3.0"].Description = "Один раз за раунд (один раз на одну цель), реакция Occultist может быть применена, когда союзник накладывает Wither на противника в зоне видимости."
 
 StatsTab.STATS["Entropy_TheImp_Node_3.1"].Name = "При Subjugated/Terrified"
-StatsTab.STATS["Entropy_TheImp_Node_3.1"].Description = "Один раз за раунд (один раз на одну цель) наложите Withered на 1 ход, когда вы задеваете противника со статусом Subjugated или Terrified."
+StatsTab.STATS["Entropy_TheImp_Node_3.1"].Description = "Один раз за раунд (один раз на одну цель) наложите Withered на 1 ход, когда вы накладываете Subjugated или Terrified."
 
 StatsTab.STATS["Entropy_TheImp_Node_4.0"].Name = "Базовые атаки"
 StatsTab.STATS["Entropy_TheImp_Node_4.0"].Description = "Реакции Occultist теперь считаются базовыми атаками."

@@ -6,3 +6,4 @@ end
 
 Ext.Require("EE2Translation_9ce38017-ffde-4a4e-a5e8-ff83e2d7a9f0", "TSKReplace.lua");
 Ext.Require("EE2Translation_9ce38017-ffde-4a4e-a5e8-ff83e2d7a9f0", "PipsFancyUIStuff.lua");
+Ext.Require("EE2Translation_9ce38017-ffde-4a4e-a5e8-ff83e2d7a9f0", "EpicerEnemies.lua");

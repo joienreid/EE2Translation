@@ -1,5 +1,5 @@
 {
-    "RequiredExtensionVersion": 47,
+    "RequiredExtensionVersion": 60,
     "ModTable": "EE2Translation",
     "FeatureFlags": [
         "OsirisExtensions",

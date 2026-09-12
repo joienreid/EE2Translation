@@ -1,0 +1,34 @@
+{
+  "FileFormatVersion": 0,
+  "ModTable": "EpipEncounters",
+  "TranslatedStrings": {
+    "h1b456c73gd007g49acgab1eg66475ca108d2": {
+      "ReferenceText": "Masterworked",
+      "TranslatedText": "Улучшено"
+    },
+    "h420215fegeaecg4ccdg9e74gf68ed7bd72b9": {
+      "ReferenceText": "If enabled, item tooltips will show a hint if the item has been Masterworked.",
+      "TranslatedText": "Если включено, у предметов после улучшения (Masterwork) будет отображаться соответствующая подсказка."
+    },
+    "h5018b6b9g7897g429fg9440gb60d076ace93": {
+      "ReferenceText": "Show Masterworked hint",
+      "TranslatedText": "Показывать строку улучшения (Masterwork)"	
+	},  
+    "h3158d4d2ga92ag4d54gab02g7b3c80050494": {
+      "ReferenceText": "15% chance per hit",
+      "TranslatedText": "При использовании способности стоимостью 1 ОД и более"
+    },
+    "h280fc43cgcdfag4a57g83a5gfecd9e6d376c": {
+      "ReferenceText": "After dealing damage exceeding 20% of total Vitality",
+      "TranslatedText": "После нанесения урона в размере более чем 10% здоровья"
+    },	
+    "h2f961697gc8bcg40a0ga032g2bba5e498778": {
+      "ReferenceText": "+10% Damage from Power per stack",
+      "TranslatedText": "30% шанс на двойное срабатывание Elementalist"
+    },
+    "hcd5b9f12gedb3g403bg8e7bge411ec7d5c70": {
+      "ReferenceText": "+5% Crit Chance per stack",
+      "TranslatedText": "+3% шанс крит. удара за стак"	
+	}                  
+  }
+}

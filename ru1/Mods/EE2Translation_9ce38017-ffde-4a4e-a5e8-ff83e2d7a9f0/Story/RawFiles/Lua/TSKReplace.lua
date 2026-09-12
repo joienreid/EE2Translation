@@ -1,4 +1,3 @@
-
 AMER_TSK_REPLACEMENTS = {
 	["AMER_GEN_CombatTurnStarted"] = "начинает ход в раунде [1].",
 	["AMER_GEN_CombatTurnStarted_Delayed"] = "начинает ход после откладывания, в раунде [1].",
@@ -47,7 +46,7 @@ AMER_TSK_REPLACEMENTS = {
 	["AMER_Artifact_SanguineHarvest_LogText"] = "активирует SanguineHarvest на [1].",
 	["AMER_Artifact_Silkclimb_LogText"] = "активирует Silkclimb чтобы убежать от [1].",
 	["AMER_Artifact_WintersGrasp_LogText"] = "активирует Winter's Grasp на [1].",
-	["AMER_Artifact_Wraith_LogText"] = "активирует Wraith Grasp на [1].",
+	["AMER_Artifact_Wraith_LogText"] = "активирует Wraith на [1].",
 	["AMER_Artifact_Wraith_NoTarget_LogText"] = "активирует Wraith.",
 	["AMER_Artifact_Zenith_LogText"] = "активирует Zenith на [1].",
 	["AMER_Artifact_Zodiac_LogText"] = "активирует Zodiac на [1].",
