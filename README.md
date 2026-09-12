@@ -17,4 +17,4 @@
 
 Зелье, обучающее всем способностям, в файле **[KnowledgePotion.lsj](https://github.com/joienreid/EE2Translation/blob/main/ru1/Mods/EE2Translation_9ce38017-ffde-4a4e-a5e8-ff83e2d7a9f0/Story/Dialogs/KnowledgePotion.lsj)**.
 
-Способности, пара талантов, журнал боя, некоторый скриптовый текст, окно Keywords от **[Epip](https://www.pinewood.team/epip/](https://github.com/PinewoodPip/EpipEncounters))** мода, эффекты **[Epicer Enemies](https://github.com/SpectralCathe/epicer-enemies)** и подавляющая часть способностей переведена в файлах в папке **[Lua](https://github.com/joienreid/EE2Translation/tree/main/ru1/Mods/EE2Translation_9ce38017-ffde-4a4e-a5e8-ff83e2d7a9f0/Story/RawFiles/Lua)**.
+Способности, пара талантов, журнал боя, некоторый скриптовый текст, окно Keywords от **[Epip]((https://github.com/PinewoodPip/EpipEncounters))** мода, эффекты **[Epicer Enemies](https://github.com/SpectralCathe/epicer-enemies)** и подавляющая часть способностей переведена в файлах в папке **[Lua](https://github.com/joienreid/EE2Translation/tree/main/ru1/Mods/EE2Translation_9ce38017-ffde-4a4e-a5e8-ff83e2d7a9f0/Story/RawFiles/Lua)**.
